@@ -28,7 +28,9 @@ The key advantages of FSMILES are outlined as follows:
 1. **Prep**
 
 conda create -n fsmls python=3.8
+
 conda activate fsmls
+
 conda install conda-forge::rdkit
 
 2. **Run the Converter**
