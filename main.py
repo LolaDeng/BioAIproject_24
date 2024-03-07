@@ -2,7 +2,7 @@ from rdkit import Chem
 from utils.helper import visualizeFrag,findCuttable,getRings,annotate
 import os,sys
 
-def fsmlsConverter(mol):
+def fsmlsConverter(mol): 
     """
     Convert a molecule into FSMILES representation. 
     This function finds cuttable bonds, extracts fragments, and generates FSMILES representation
